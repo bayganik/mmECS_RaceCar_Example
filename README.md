@@ -1,5 +1,5 @@
 # Race Car Example using my managed ECS  (mmECS)
-This is a simple and interactive Unity3d example project to show how to use mmECS (Entity Component System).
+This is a simple and interactive Unity3d (2017 version) example project to show how to use mmECS (Entity Component System).
 This (ECS) Framework specifically made for C# and Unity, using unity event manager to register and listen when certain code needs to be executed.
 
 This example aims to demonstrate :
@@ -14,10 +14,11 @@ This example aims to demonstrate :
 To Install download mmECS files to a folder.
 Go to \mmECS_RaceCar_Example\mmGameLib_UnityEditor
 there are 2 files
+
 •51-EntityComponent-NewEntityComponent.cs
 •52-EntitySystem-NewEntitySystem.cs
 
-copy to C:\Program Files\Unity\Editor\Data\Resources\ScriptTemplates and add the two template files
+copy them to C:\Program Files\Unity\Editor\Data\Resources\ScriptTemplates and add the two template files
 These 2 show up in your editor everytime you want to add a "new" script
 
 Next Restart or Open your Unity project and go to Edit/ProjectSettings/Script Execution Order and Set EntityManager to -200 and Entity to -100.
