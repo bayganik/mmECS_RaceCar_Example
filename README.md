@@ -16,12 +16,15 @@ Go to \mmECS_RaceCar_Example\mmGameLib_UnityEditor
 there are 2 files
 
 •51-EntityComponent-NewEntityComponent.cs
+
 •52-EntitySystem-NewEntitySystem.cs
 
 copy them to C:\Program Files\Unity\Editor\Data\Resources\ScriptTemplates and add the two template files
 These 2 show up in your editor everytime you want to add a "new" script
 
 Next Restart or Open your Unity project and go to Edit/ProjectSettings/Script Execution Order and Set EntityManager to -200 and Entity to -100.
+
+## Sample Screen
 
 ![game image](RaceCarGame.png)
 
